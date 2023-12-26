@@ -15,3 +15,9 @@ int main(){
 	
 	return 0;
 }
+
+void mySwap(int &a,int &b){
+	int z=a;
+		a=b;
+		b=z;
+} 
